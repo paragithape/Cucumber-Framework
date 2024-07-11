@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="ParameterPractice2">
+	  <parameter name="userName" value="admin123"></parameter>
+	  <parameter name="password" value="Pass@123"></parameter>
+	  <parameter name="browserName" value="chrome"></parameter>
+	    <classes>
+	      <class name="org.testngPractice.ParametersEx1"/>
+	    </classes>
+	  </test> <!-- ParameterPractice2 -->
+</suite> <!-- Suite -->
